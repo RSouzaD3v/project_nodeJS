@@ -14,6 +14,9 @@ import { fastify } from "fastify";
 // import { DatabaseMemory } from "./database-memory.js";
 import { DatabasePostgres } from "./database-postgres.js";
 
+const cors = require('cors');
+app.use(cors());
+
 const server = fastify();
 
 // const database = new DatabaseMemory();

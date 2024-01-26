@@ -2,8 +2,8 @@ POST https://project-nodejs-ne32.onrender.com/videos
 Content-Type: application/json
 
 {
-    "title": "Rafael F. Souza",
-    "description": "Minha descrição gigante",
+    "title": "Denilson Alves",
+    "description": "Vai perder pro Rafael F. Souza no MK11",
     "duration": 200
 }
 ###
