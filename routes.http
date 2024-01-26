@@ -1,0 +1,26 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "Rafael F. Souza",
+    "description": "Minha descrição gigante",
+    "duration": 200
+}
+###
+
+GET  http://localhost:3333/videos?search=
+Content-Type: application/json
+
+###
+
+PUT  http://localhost:3333/videos/
+Content-Type: application/json
+
+{
+    "title": "Denilson Pereira",
+    "description": "Minha descrição Pequenininha",
+    "duration": 180
+}
+
+###
+DELETE http://localhost:3333/videos/
