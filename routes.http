@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://project-nodejs-ne32.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -8,12 +8,12 @@ Content-Type: application/json
 }
 ###
 
-GET  http://localhost:3333/videos?search=
+GET  https://project-nodejs-ne32.onrender.com/videos?search=
 Content-Type: application/json
 
 ###
 
-PUT  http://localhost:3333/videos/
+PUT  https://project-nodejs-ne32.onrender.com/videos/
 Content-Type: application/json
 
 {
@@ -23,4 +23,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3333/videos/
+DELETE https://project-nodejs-ne32.onrender.com/videos/
