@@ -17,7 +17,8 @@ import cors from '@fastify/cors';
 
 const server = fastify();
 server.register(cors, {
-    origin: false
+    origin: '*',
+    methods: 'GET',
 })
 
 
